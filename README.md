@@ -27,3 +27,8 @@ python3 Training.py
 The main window will be open. Select 'Open Image', and choose one image to start building your database.
 ![Open_Image](Figures/Fig1.jpg)
 
+Select "Features Extraction" to extract 19 features from the current image. A textbox confirms the correct extraction process "19 features were succesfully extracted from current image" 
+![Feature_Extraction](Figures/Fig2.jpg)
+
+
+
