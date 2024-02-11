@@ -133,7 +133,7 @@ Local_H]).reshape(1,7)
 
     from tkinter import messagebox
 
-    messagebox.showinfo("Title", "19 features were succefully extracted from current image")
+    messagebox.showinfo("Title", "19 features were succesfully extracted from current image")
 
 #------------------------------------------------------------------------------------------
 global FMatrix
