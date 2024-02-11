@@ -19,9 +19,11 @@ pip install Pillow numpy matplotlib opencv-python pandas openpyxl imutils scikit
 ```
 
 1. Training
+   
 Open the file "Training.py"
 ```js
 python3 Training.py
 ```
 The main window will be open. Select 'Open Image', and choose one image to start building your database.
-<img src: >
+![Open_Image](Figures/Fig1.jpg)
+
