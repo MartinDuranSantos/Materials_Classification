@@ -34,7 +34,9 @@ Finally, add the label and press "Train" to add the extracted features to the Da
   
 ![Train](Figures/Fig3.jpg)
 
+
 2. Classify
+   
 You can directly classify materials by using the prebuilt Database named as "Db_60.xlsx", which has been built from the 60 figures in the folder "./Training". To do so, open the file "Classification.py"
 ```js
 python3 Classification.py
