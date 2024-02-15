@@ -35,6 +35,25 @@ Finally, add the label and press "Train" to add the extracted features to the Da
 ![Train](Figures/Fig3.jpg)
 
 
+2. Classify
+   
+You can directly classify materials by using the prebuilt Database named as "Db_60.xlsx", which has been built from the 60 figures in the folder "./Training". To do so, open the file "Classification.py"
+```js
+python3 Classification.py
+```
+
+Select "Import database" to import the prebuilt database "Db_60.xlsx". A legend will confirm the process "The Database Db_60 was successfully imported and used to train a Random Forest Classifier".
+![Import_Database](Figures/Fig4.jpg)
+
+Open your image and extract features. You can use the test figures in the folter "./Test"
+Select the option "Classify", and the name of the material will appear on the screen.
+![Classify](Figures/Fig5.jpg)
+
+Repeat the process to classify other materials.
+
+This is a simple demo where you can implement other classifiers. Modify the lines 183-188 to change the classifier, i.e. use a Support Vector Machine to compare results.
+If you can implement your own database, you can modify the line 162 as "new_database = Db". This will change the database and will use "Db.xlsx" to train your classifier.
+
 
 
 
